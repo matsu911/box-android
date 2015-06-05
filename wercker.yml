@@ -1,1 +1,7 @@
 box: ubuntu
+build:
+  steps:
+    - script:
+        name: show base information
+        code: |
+          uname -a
